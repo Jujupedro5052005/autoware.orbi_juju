@@ -101,21 +101,23 @@ repositories:
     type: git
     url: https://github.com/Jujupedro5052005/autoware_launch.juju_orbi.git
     version: main
-  # sensor kit
-  sensor_kit/juju_sensor_kit_launch:
-    type: git
-    url: https://github.com/Jujupedro5052005/juju_sensor_kit_launch.git
-    version: main
-  # vehicle launch
-  vehicle/juju_vehicle_launch:
-    type: git
-    url: https://github.com/Jujupedro5052005/juju_vehicle_launch.git
-    version: main
-  # individual params
-  param/juju_individual_params:
-    type: git
-    url: https://github.com/Jujupedro5052005/juju_individual_params.git
-    version: main
+
+  # NOTE: since April 2025, main autoware_launch already includes these:
+  # # sensor kit
+  # sensor_kit/juju_sensor_kit_launch:
+  #   type: git
+  #   url: https://github.com/Jujupedro5052005/juju_sensor_kit_launch.git
+  #   version: main
+  # # vehicle launch
+  # vehicle/juju_vehicle_launch:
+  #   type: git
+  #   url: https://github.com/Jujupedro5052005/juju_vehicle_launch.git
+   #  version: main
+  # # individual params
+  # param/juju_individual_params:
+  #   type: git
+  #   url: https://github.com/Jujupedro5052005/juju_individual_params.git
+  #   version: main
 # ----------------------------> ************** <-----------------------------
 
   # sensor_component
